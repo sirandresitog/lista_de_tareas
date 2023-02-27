@@ -1,10 +1,7 @@
-import { useState } from "react";
 import "./App.css";
 import logoFreeCodeCamp from "./imagenes/freecodecamp-logo.png";
-import Tarea from "./componentes/Tarea.jsx";
+import ListaDeTareas from "./componentes/ListaDeTareas";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="aplicacion-tareas">
       <div className="freecodecamp-logo-contenedor">
@@ -16,7 +13,7 @@ function App() {
       </div>
       <div className="tareas-lista-principal">
         <h1>MIS TAREAS</h1>
-        <Tarea texto="Aprender react" />
+        <ListaDeTareas />
       </div>
     </div>
   );
