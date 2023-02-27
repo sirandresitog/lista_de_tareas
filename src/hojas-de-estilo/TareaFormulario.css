@@ -54,6 +54,7 @@
     padding: 8px;
     font-size: 10px;
     font-family: Roboto, sans-serif;
-    border: none;
+    margin-top: 7px;
+    flex: 1;
   }
 }
