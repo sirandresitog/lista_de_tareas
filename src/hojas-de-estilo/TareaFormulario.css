@@ -37,3 +37,23 @@
   color: #fff;
   text-transform: capitalize;
 }
+@media (max-width: 500px) {
+  .tarea-input {
+    width: 250px;
+    font-size: 10px;
+    background: #fff;
+    padding: 7px 16px 7px 8px;
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    -ms-border-radius: 4px 0 0 4px;
+    -o-border-radius: 4px 0 0 4px;
+    border: 2px solid #00471b;
+  }
+  .tarea-boton {
+    padding: 8px;
+    font-size: 10px;
+    font-family: Roboto, sans-serif;
+    border: none;
+  }
+}

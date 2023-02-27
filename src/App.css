@@ -1,10 +1,4 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  box-sizing: border-box;
-}
+
 html,
 body {
   color: white;
@@ -54,4 +48,34 @@ h1 {
   -ms-border-radius: 26px;
   -o-border-radius: 26px;
   color: #fff;
+}
+@media (max-width: 500px) {
+  .freecodecamp-logo-contenedor {
+    width: 100%;
+    margin: 10px;
+  }
+  .freecodecamp-logo {
+    width: 280px;
+    height: 43px;
+  }
+  h1 {
+    color: #1b1b32;
+    font-size: 25px;
+    margin: 10px 0;
+  }
+  .tareas-lista-principal {
+    width: 280px;
+    min-height: 300px;
+    background-color: #d0d0d5;
+    padding: 12px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 26px;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -ms-border-radius: 26px;
+    -o-border-radius: 26px;
+    color: #fff;
+  }
 }

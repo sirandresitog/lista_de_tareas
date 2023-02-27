@@ -46,3 +46,17 @@
   background: #5a01a7;
   text-decoration: line-through;
 }
+@media (max-width: 500px) {
+  .tarea-contenedor {
+    width: 260px;
+    min-height: 25px;
+    background: #1b1b32;
+    margin: 5px 0;
+    padding: 8px 15px 8px 20px;
+  }
+  .tarea-texto {
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+  }
+}
