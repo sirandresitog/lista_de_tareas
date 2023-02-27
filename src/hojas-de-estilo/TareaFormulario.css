@@ -1,0 +1,39 @@
+/* estructura principal formulario*/
+.tarea-formulario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/* Campo de texto  formulario*/
+.tarea-input {
+  width: 350px;
+  font-size: 18px;
+  background: #fff;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  -ms-border-radius: 4px 0 0 4px;
+  -o-border-radius: 4px 0 0 4px;
+  border: 2px solid #00471b;
+  outline: none;
+  color: #000;
+}
+/* Boton agregar tarea */
+.tarea-boton {
+  padding: 16px;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  -ms-border-radius: 0 4px 4px 0;
+  -o-border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: #00471b;
+  color: #fff;
+  text-transform: capitalize;
+}
