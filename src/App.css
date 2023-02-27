@@ -29,14 +29,14 @@ h1 {
   align-items: center;
 }
 .freecodecamp-logo {
-  width: 400px;
-  height: 53px;
+  width: 500px;
+  height: 93px;
 }
 /* lista de Tareas */
 
 .tareas-lista-principal {
   width: 600px;
-  min-height: 700px;
+  min-height: 600px;
   background-color: #d0d0d5;
   padding: 25px;
   margin: 10px;
@@ -55,8 +55,8 @@ h1 {
     margin: 10px;
   }
   .freecodecamp-logo {
-    width: 280px;
-    height: 43px;
+    width: 380px;
+    height: 98px;
   }
   h1 {
     color: #1b1b32;
